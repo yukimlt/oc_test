@@ -10,9 +10,9 @@ spec:
       name: wordpress
       env:
         - name: WORDPRESS_DB_USER
-          value: wp_user
+          value: user
         - name: WORDPRESS_DB_PASSWORD
-          value: wp_pass
+          value: pass
         - name: WORDPRESS_DB_NAME
           value: wp_db
         - name: WORDPRESS_DB_HOST
