@@ -13,11 +13,11 @@ spec:
       name: mysql
       env:
         - name: MYSQL_ROOT_PASSWORD
-          value: yourpassword
+          value: pass
         - name: MYSQL_USER
-          value: wp_user
+          value: user
         - name: MYSQL_PASSWORD
-          value: wp_pass
+          value: pass
         - name: MYSQL_DATABASE
           value: wp_db
       ports:
