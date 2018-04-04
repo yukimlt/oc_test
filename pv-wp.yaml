@@ -1,0 +1,13 @@
+  apiVersion: v1
+  kind: PersistentVolume
+  metadata:
+    name: wp-volume
+  spec:
+    capacity:
+      storage: 1Gi
+    accessModes:
+      - ReadWriteMany
+    persistentVolumeReclaimPolicy: Recycle
+    nfs:
+      path: /var/export/wpvol
+      server: workstation3.area3.example.com
